@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "5633e9d2-7925-45e2-954b-61e986874821",
+		"name": "Indonesia Teritory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14579875"
+	},
+	"item": [
+		{
+			"name": "Village",
+			"item": [
+				{
+					"name": "All Village",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://indonesia-teritory.test/api/desa",
+							"protocol": "http",
+							"host": [
+								"indonesia-teritory",
+								"test"
+							],
+							"path": [
+								"api",
+								"desa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Detail Village",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://indonesia-teritory.test/api/desa/2",
+							"protocol": "http",
+							"host": [
+								"indonesia-teritory",
+								"test"
+							],
+							"path": [
+								"api",
+								"desa",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Village",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://indonesia-teritory.test/api/desa/1",
+							"protocol": "http",
+							"host": [
+								"indonesia-teritory",
+								"test"
+							],
+							"path": [
+								"api",
+								"desa",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Store Village",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "code",
+									"value": "11010112",
+									"type": "text"
+								},
+								{
+									"key": "district_code",
+									"value": "110101",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "UJONG MANGKI",
+									"type": "text"
+								},
+								{
+									"key": "lat",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "long",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "pos",
+									"value": "23773",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://indonesia-teritory.test/api/desa",
+							"protocol": "http",
+							"host": [
+								"indonesia-teritory",
+								"test"
+							],
+							"path": [
+								"api",
+								"desa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put Village",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "110101122",
+									"type": "text"
+								},
+								{
+									"key": "district_code",
+									"value": "110101",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "UJONG MANGKI",
+									"type": "text"
+								},
+								{
+									"key": "lat",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "long",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "pos",
+									"value": "23773",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://indonesia-teritory.test/api/desa/2",
+							"protocol": "http",
+							"host": [
+								"indonesia-teritory",
+								"test"
+							],
+							"path": [
+								"api",
+								"desa",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
